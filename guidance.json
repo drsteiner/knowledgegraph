@@ -1,0 +1,298 @@
+[
+  {
+    "@id": "https://drsteiner.github.io/knowledgegraph/guidance#GuidanceElement",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Guidance Element",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A discrete item of guidance such as a standard, procedure, FAQ, or best practice that provides structured information within a specific domain.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://drsteiner.github.io/knowledgegraph/guidance#Framework",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "https://drsteiner.github.io/knowledgegraph/guidance#GuidanceElement"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Framework",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A conceptual or structural foundation that organizes and relates principles, processes, roles, or tools within a domain.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://drsteiner.github.io/knowledgegraph/guidance#FAQ",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "https://drsteiner.github.io/knowledgegraph/guidance#GuidanceElement"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Frequently Asked Questions",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A curated list of common questions and answers about a product, service, policy, or process.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://drsteiner.github.io/knowledgegraph/guidance#BestPractice",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "https://drsteiner.github.io/knowledgegraph/guidance#GuidanceElement"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Best Practice",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A method or approach that is widely accepted as effective in achieving a desired outcome.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://drsteiner.github.io/knowledgegraph/guidance#Benchmark",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "https://drsteiner.github.io/knowledgegraph/guidance#GuidanceElement"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Benchmark",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A measurable reference point used to evaluate performance or quality.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://drsteiner.github.io/knowledgegraph/guidance#Procedure",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "https://drsteiner.github.io/knowledgegraph/guidance#GuidanceElement"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Procedure",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "An ordered series of steps to achieve a specific outcome.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://drsteiner.github.io/knowledgegraph/guidance#Standard",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "https://drsteiner.github.io/knowledgegraph/guidance#GuidanceElement"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Standard",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A documented agreement containing technical specifications or criteria to ensure quality, safety, or interoperability.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://drsteiner.github.io/knowledgegraph/guidance#title",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://drsteiner.github.io/knowledgegraph/guidance#GuidanceElement"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "title",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A human-readable title of the guidance element.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://drsteiner.github.io/knowledgegraph/guidance#description",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://drsteiner.github.io/knowledgegraph/guidance#GuidanceElement"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "description",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A textual description providing details about the guidance element.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://drsteiner.github.io/knowledgegraph/guidance#identifier",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://drsteiner.github.io/knowledgegraph/guidance#GuidanceElement"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "identifier",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A globally unique IRI or persistent identifier associated with the guidance element.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://drsteiner.github.io/knowledgegraph/guidance#creatorName",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://drsteiner.github.io/knowledgegraph/guidance#GuidanceElement"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "creator name",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "The name of the person or organization that created the guidance element.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "https://drsteiner.github.io/knowledgegraph/guidance#maintainerName",
+    "@type": [
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://drsteiner.github.io/knowledgegraph/guidance#GuidanceElement"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "maintainer name",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "The name of the person or organization responsible for maintaining the guidance element.",
+        "@language": "en"
+      }
+    ]
+  }
+]

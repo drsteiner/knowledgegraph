@@ -78,3 +78,9 @@ fgv:maintainerName a rdf:Property ;
   rdfs:range xsd:string ;
   rdfs:label "maintainer name"@en ;
   rdfs:comment "The name of the person or organization responsible for maintaining the guidance element."@en .
+
+fgv:maintainer a rdf:Property ;
+  rdfs:domain fgv:GuidanceElement ;
+  rdfs:range foaf:Person ;
+  rdfs:label "maintainer"@en ;
+  rdfs:comment "Relates a guidance element to the person responsible for maintaining it."@en .

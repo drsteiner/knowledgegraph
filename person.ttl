@@ -1,0 +1,26 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prs: <https://drsteiner.github.io/knowledgegraph/person.ttl> .
+
+prs:Steiny
+  a foaf:Person ;
+  foaf:name "Stein Steiny" ;
+  foaf:mbox "steiny@steiny.nl" ;
+  foaf:gender "male" ;
+  foaf:birthday "1968-08-01"^^xsd:date ;
+  foaf:topic_interest "Knowledge Graphs" ;
+  foaf:knows <https://laurenstobias.com/#laurens-tobias>, _:els, <https://paulboon.github.io/knowledgegraph/employee-paulboon.ttl#PaulBoon> ;
+  foaf:member <https://ror.org/043c0p156> ;
+  foaf:account <https://orcid.org/0000-0003-1106-8441> .
+
+_:els
+  a foaf:Person ;
+  foaf:name "Someone Else" .
+
+ <https://ror.org/043c0p156>
+   a foaf:Organization ;
+   foaf:name "Royal Netherlands Academy of Arts and Sciences"@en ;
+   foaf:name "Koninklijke Nederlandse Akademie van Wetenschappen"@nl ;
+   foaf:homepage <https://www.knaw.nl/en> ;
+   foaf:account <https://www.wikidata.org/wiki/Q253439> .

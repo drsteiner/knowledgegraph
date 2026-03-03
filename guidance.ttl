@@ -1,4 +1,4 @@
-@prefix fgv:    <https://drsteiner.github.io/knowledgegraph/guidance.ttl#> .
+@prefix guide:    <https://drsteiner.github.io/knowledgegraph/guidance.ttl#> .
 @prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
@@ -8,7 +8,7 @@
 # Core Class
 #################################################################
 
-fgv:GuidanceElement a rdfs:Class ;
+guide:GuidanceElement a rdfs:Class ;
   rdfs:label "Guidance Element"@en ;
   rdfs:comment "A discrete item of guidance such as a standard, procedure, FAQ, or best practice that provides structured information within a specific domain."@en .
 
@@ -16,33 +16,33 @@ fgv:GuidanceElement a rdfs:Class ;
 # Subclasses of GuidanceElement
 #################################################################
 
-fgv:Framework a rdfs:Class ;
-  rdfs:subClassOf fgv:GuidanceElement ;
+guide:Framework a rdfs:Class ;
+  rdfs:subClassOf guide:GuidanceElement ;
   rdfs:label "Framework"@en ;
   rdfs:comment "A conceptual or structural foundation that organizes and relates principles, processes, roles, or tools within a domain."@en .
 
-fgv:FAQ a rdfs:Class ;
-  rdfs:subClassOf fgv:GuidanceElement ;
+guide:FAQ a rdfs:Class ;
+  rdfs:subClassOf guide:GuidanceElement ;
   rdfs:label "Frequently Asked Questions"@en ;
   rdfs:comment "A curated list of common questions and answers about a product, service, policy, or process."@en .
 
-fgv:BestPractice a rdfs:Class ;
-  rdfs:subClassOf fgv:GuidanceElement ;
+guide:BestPractice a rdfs:Class ;
+  rdfs:subClassOf guide:GuidanceElement ;
   rdfs:label "Best Practice"@en ;
   rdfs:comment "A method or approach that is widely accepted as effective in achieving a desired outcome."@en .
 
-fgv:Benchmark a rdfs:Class ;
-  rdfs:subClassOf fgv:GuidanceElement ;
+guide:Benchmark a rdfs:Class ;
+  rdfs:subClassOf guide:GuidanceElement ;
   rdfs:label "Benchmark"@en ;
   rdfs:comment "A measurable reference point used to evaluate performance or quality."@en .
 
-fgv:Procedure a rdfs:Class ;
-  rdfs:subClassOf fgv:GuidanceElement ;
+guide:Procedure a rdfs:Class ;
+  rdfs:subClassOf guide:GuidanceElement ;
   rdfs:label "Procedure"@en ;
   rdfs:comment "An ordered series of steps to achieve a specific outcome."@en .
 
-fgv:Standard a rdfs:Class ;
-  rdfs:subClassOf fgv:GuidanceElement ;
+guide:Standard a rdfs:Class ;
+  rdfs:subClassOf guide:GuidanceElement ;
   rdfs:label "Standard"@en ;
   rdfs:comment "A documented agreement containing technical specifications or criteria to ensure quality, safety, or interoperability."@en .
 
@@ -50,38 +50,38 @@ fgv:Standard a rdfs:Class ;
 # Properties
 #################################################################
 
-fgv:title a rdf:Property ;
-  rdfs:domain fgv:GuidanceElement ;
+guide:title a rdf:Property ;
+  rdfs:domain guide:GuidanceElement ;
   rdfs:range xsd:string ;
   rdfs:label "title"@en ;
   rdfs:comment "A human-readable title of the guidance element."@en .
 
-fgv:description a rdf:Property ;
-  rdfs:domain fgv:GuidanceElement ;
+guide:description a rdf:Property ;
+  rdfs:domain guide:GuidanceElement ;
   rdfs:range xsd:string ;
   rdfs:label "description"@en ;
   rdfs:comment "A textual description providing details about the guidance element."@en .
 
-fgv:identifier a rdf:Property ;
-  rdfs:domain fgv:GuidanceElement ;
+guide:identifier a rdf:Property ;
+  rdfs:domain guide:GuidanceElement ;
   rdfs:range xsd:anyURI ;
   rdfs:label "identifier"@en ;
   rdfs:comment "A globally unique IRI or persistent identifier associated with the guidance element."@en .
 
-fgv:creatorName a rdf:Property ;
-  rdfs:domain fgv:GuidanceElement ;
+guide:creatorName a rdf:Property ;
+  rdfs:domain guide:GuidanceElement ;
   rdfs:range xsd:string ;
   rdfs:label "creator name"@en ;
   rdfs:comment "The name of the person or organization that created the guidance element."@en .
 
-fgv:maintainerName a rdf:Property ;
-  rdfs:domain fgv:GuidanceElement ;
+guide:maintainerName a rdf:Property ;
+  rdfs:domain guide:GuidanceElement ;
   rdfs:range xsd:string ;
   rdfs:label "maintainer name"@en ;
   rdfs:comment "The name of the person or organization responsible for maintaining the guidance element."@en .
 
-fgv:maintainer a rdf:Property ;
-  rdfs:domain fgv:GuidanceElement ;
+guide:maintainer a rdf:Property ;
+  rdfs:domain guide:GuidanceElement ;
   rdfs:range foaf:Person ;
   rdfs:label "maintainer"@en ;
   rdfs:comment "Relates a guidance element to the person responsible for maintaining it."@en .

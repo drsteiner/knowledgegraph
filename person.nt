@@ -1,0 +1,11 @@
+<https://drsteiner.github.io/knowledgegraph/person.ttl#Steiny> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://drsteiner.github.io/knowledgegraph/person.ttl#Steiny> <http://xmlns.com/foaf/0.1/name> "Stein Steiny" .
+<https://drsteiner.github.io/knowledgegraph/person.ttl#Steiny> <http://xmlns.com/foaf/0.1/mbox> <mailto:steiny@mailinatoir.com> .
+<https://drsteiner.github.io/knowledgegraph/person.ttl#Steiny> <http://xmlns.com/foaf/0.1/birthday> "1968-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://drsteiner.github.io/knowledgegraph/person.ttl#Steiny> <http://xmlns.com/foaf/0.1/topic_interest> <https://www.wikidata.org/wiki/Q638> .
+<https://drsteiner.github.io/knowledgegraph/person.ttl#Steiny> <http://xmlns.com/foaf/0.1/knows> <https://laurenstobias.com/#laurens-tobias> .
+<https://drsteiner.github.io/knowledgegraph/person.ttl#Steiny> <http://xmlns.com/foaf/0.1/knows> <https://paulboon.github.io/knowledgegraph/employee-paulboon.ttl#PaulBoon> .
+<https://drsteiner.github.io/knowledgegraph/guidance.ttl#my_faq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://drsteiner.github.io/knowledgegraph/guidance.ttl#FAQ> .
+<https://drsteiner.github.io/knowledgegraph/guidance.ttl#my_faq> <https://drsteiner.github.io/knowledgegraph/guidance.ttl#title> "Metadata Interoperability FAQ"@en .
+<https://drsteiner.github.io/knowledgegraph/guidance.ttl#my_faq> <https://drsteiner.github.io/knowledgegraph/guidance.ttl#description> "This FAQ answers common questions about implementing interoperable metadata standards across repositories."@en .
+<https://drsteiner.github.io/knowledgegraph/guidance.ttl#my_faq> <https://drsteiner.github.io/knowledgegraph/guidance.ttl#maintainer> <https://drsteiner.github.io/knowledgegraph/person.ttl#Steiny> .

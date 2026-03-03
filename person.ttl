@@ -11,7 +11,7 @@ prs:Steiny
   foaf:gender "male" ;
   foaf:birthday "1968-08-01"^^xsd:date ;
   foaf:topic_interest "Knowledge Graphs:-" ;
-  foaf:knows <https://laurenstobias.com/#laurens-tobias>, <https://paulboon.github.io/knowledgegraph/employee-paulboon.ttl#PaulBoon> ;
+  foaf:knows <https://laurenstobias.com/#laurens-tobias>, <https://paulboon.github.io/knowledgegraph/employee-paulboon.ttl#PaulBoon> .
 
 guide:my_faq a guide:FAQ ;
   guide:title "Metadata Interoperability FAQ"@en ;

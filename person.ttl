@@ -9,7 +9,7 @@ prs:Steiny
   foaf:name "Stein Steiny" ;
   foaf:mbox <mailto:steiny@mailinatoir.com> ;
   foaf:birthday "1968-08-01"^^xsd:date ;
-  foaf:topic_interest "Knowledge Graphs:-" ;
+  foaf:topic_interest <https://www.wikidata.org/wiki/Q638> ;
   foaf:knows <https://laurenstobias.com/#laurens-tobias>, <https://paulboon.github.io/knowledgegraph/employee-paulboon.ttl#PaulBoon> .
 
 guide:my_faq a guide:FAQ ;

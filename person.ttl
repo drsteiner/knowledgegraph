@@ -7,8 +7,7 @@
 prs:Steiny
   a foaf:Person ;
   foaf:name "Stein Steiny" ;
-  foaf:mbox "steiny@steiny.nl" ;
-  foaf:gender "male" ;
+  foaf:mbox <mailto:steiny@steiny.nl> ;
   foaf:birthday "1968-08-01"^^xsd:date ;
   foaf:topic_interest "Knowledge Graphs:-" ;
   foaf:knows <https://laurenstobias.com/#laurens-tobias>, <https://paulboon.github.io/knowledgegraph/employee-paulboon.ttl#PaulBoon> .

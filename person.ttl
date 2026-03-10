@@ -10,7 +10,7 @@ prs:Steiny
   foaf:mbox <mailto:steiny@mailinatoir.com> ;
   foaf:birthday "1968-08-01"^^xsd:date ;
   foaf:topic_interest <https://www.wikidata.org/wiki/Q638> ;
-  foaf:knows <https://laurenstobias.com/#laurens-tobias>, <https://paulboon.github.io/knowledgegraph/employee-paulboon.ttl#PaulBoon>, <https://aapolimeno.github.io/#Alessandra> .
+  foaf:knows <https://laurenstobias.com/#laurens-tobias>, <https://paulboon.github.io/knowledgegraph/employee-paulboon.ttl#PaulBoon>, <https://aapolimeno.github.io/#Alessandra>, <https://aliassheikh.github.io/KnowledgeGraph/data.ttl#me> .
 
 guide:my_faq a guide:FAQ ;
   guide:title "Metadata Interoperability FAQ"@en ;

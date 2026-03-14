@@ -10,7 +10,8 @@ prs:Steiny
   foaf:mbox <mailto:steiny@mailinatoir.com> ;
   foaf:birthday "1968-08-01"^^xsd:date ;
   foaf:topic_interest <https://www.wikidata.org/wiki/Q638> ;
-  foaf:knows <https://laurenstobias.com/#laurens-tobias>, <https://paulboon.github.io/knowledgegraph/employee-paulboon.ttl#PaulBoon>, <https://aapolimeno.github.io/#Alessandra>, <https://aliassheikh.github.io/KnowledgeGraph/data.ttl#me> .
+  foaf:knows <https://laurenstobias.com/#laurens-tobias>, <https://paulboon.github.io/knowledgegraph/employee-paulboon.ttl#PaulBoon>, <https://aapolimeno.github.io/#Alessandra>, <https://aliassheikh.github.io/KnowledgeGraph/data.ttl#me> ;
+  foaf:img <https://scontent.frtm1-2.fna.fbcdn.net/v/t39.30808-1/394628982_122110278998083299_2394732093802164346_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=101&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=FxVOJX6Kea4Q7kNvwFPG3Qc&_nc_oc=AdlWJu5pe2HFKsWu96xcAwBP1T5B8DZXmsKfXUEbmn1LA9yvvt5SnxPCnsbMnkMeyW4&_nc_zt=24&_nc_ht=scontent.frtm1-2.fna&_nc_gid=r14QDTcu1mHErP3dpm5_3A&_nc_ss=8&oh=00_AfyMt-SwKrNE-2P9J8gg3Lfz8yM218HTtkcJmtoeyYfr6A&oe=69BB2E72> .
 
 guide:my_faq a guide:FAQ ;
   guide:title "Metadata Interoperability FAQ"@en ;
